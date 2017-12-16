@@ -284,12 +284,12 @@ function DeleteCookie(name) {
                         </table>
                     </div>
                     <div class="form-group">
-                        <h5>返回结果</h5>
-                        <textarea name="re" rows="3" class="form-control" placeholder="返回结果"></textarea>
+                        <h5>返回结果：</h5>
+                        <textarea name="re" rows="3" class="form-control" placeholder="返回结果" style="min-height: 350px;height: auto;"></textarea>
                     </div>
                     <div class="form-group">
-                        <h5>备注</h5>
-                        <textarea name="memo" rows="3" class="form-control" placeholder="备注"></textarea>
+                        <h5>请求备注：</h5>
+                        <textarea name="memo" rows="3" class="form-control" placeholder="备注" style="min-height: 350px;height: auto;"></textarea>
                     </div>
                     <button class="btn btn-success">Submit</button>
                 </form>
@@ -410,11 +410,11 @@ function DeleteCookie(name) {
                     </div>
                     <div class="form-group">
                         <h5>返回结果</h5>
-                        <textarea name="re" rows="3" class="form-control" placeholder="返回结果"><?php echo $info['re']?></textarea>
+                        <textarea name="re" rows="3" class="form-control" placeholder="返回结果" style="height: auto;min-height: 350px;"><?php echo $info['re']?></textarea>
                     </div>
                     <div class="form-group">
-                        <h5>备注</h5>
-                        <textarea name="memo" rows="3" class="form-control" placeholder="备注"><?php echo $info['memo']?></textarea>
+                        <h5>请求备注</h5>
+                        <textarea name="memo" rows="3" class="form-control" placeholder="备注" style="height: auto;min-height: 350px;"><?php echo $info['memo']?></textarea>
                     </div>
                     <button class="btn btn-success">Submit</button>
                 </form>
